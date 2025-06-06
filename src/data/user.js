@@ -1,8 +1,8 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "신촌평광교회",
+		name: "마신희",
+		email: "pyungkwangchurch@gmail.com",
 		logo: "../logo.png",
 	},
 
@@ -16,9 +16,15 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "환영합니다! 신촌평광교회입니다.",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"'다음 세대 복음화'라는 미션을 중심으로 '선교형 멘토링 교회'를 실천하고 있습니다. 지방/수도권의 교류를 통해 청소년과 대학생을 글로벌 크리스천 리더로 길러가는 교회가 되길 원합니다.",
+	},
+
+	donation: {
+		title: "신촌평광교회 후원하기 ✝",
+		description:
+			"온라인 헌금 : 우리은행 1005-104-288933 (신촌평광교회)",
 	},
 
 	about: {

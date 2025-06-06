@@ -1,5 +1,5 @@
 import React from "react";
-import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 import Card from "../common/card";
 
@@ -9,35 +9,29 @@ const Works = () => {
 	return (
 		<div className="works">
 			<Card
-				icon={faBriefcase}
-				title="Work"
+				icon={faLocationDot}
+				title="오시는 길"
 				body={
 					<div className="works-body">
 						<div className="work">
-							<img
-								src="./facebook.png"
-								alt="facebook"
-								className="work-image"
-							/>
-							<div className="work-title">Facebook</div>
+							<div className="work-title">예배 장소</div>
 							<div className="work-subtitle">
-								Software Engineer
+								강서고 챔버홀 (서울특별시 양천구 목동중앙남로 27)
 							</div>
-							<div className="work-duration">2019 - Present</div>
+						</div>
+						<div className="work">
+							
+							<div className="work-title">교육관</div>
+							<div className="work-subtitle">
+								카페올리브 2층 (서울 양천구 목동중앙남로4길 16, 2층)
+							</div>
 						</div>
 
-						<div className="work">
-							<img
-								src="./twitter.png"
-								alt="twitter"
+						<img
+								src="./churchmap.png"
+								alt="church map"
 								className="work-image"
 							/>
-							<div className="work-title">Twitter</div>
-							<div className="work-subtitle">
-								Software Engineer
-							</div>
-							<div className="work-duration">2019 - Present</div>
-						</div>
 					</div>
 				}
 			/>

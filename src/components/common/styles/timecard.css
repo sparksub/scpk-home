@@ -1,0 +1,35 @@
+@import "../../../data/styles.css";
+
+.timecard {
+	mix-blend-mode: normal;
+	border-radius: 20px;
+	outline: 2px solid #ffffff;
+}
+
+.timecard-container {
+	padding: 20px;
+	padding-left: 30px;
+	padding-bottom: 5px;
+}
+
+.timecard-header {
+	display: flex;
+	align-items: center;
+}
+
+.timecard-icon {
+	font-size: 15px;
+	color: var(--tertiary-color);
+}
+
+.timecard-title {
+	/* color: var(--secondary-color); */
+	font-size: 15px;
+	padding-left: 20px;
+	font-weight: 650;
+}
+
+.timecard-body {
+	padding-top: 30px;
+	font-size: 15px;
+}

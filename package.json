@@ -1,11 +1,12 @@
 {
-	"name": "reactfolio",
-	"version": "1.1.0",
-	"description": "Personal portfolio template built using Reactjs",
+	"name": "scpk-homepage",
+	"version": "1.0.0",
+	"description": "신촌평광교회 홈페이지 built using Reactjs",
 	"author": {
-		"name": "Tharindu N. Madhusanka",
-		"email": "mail@tharindu.dev",
-		"url": "https://tharindu.dev"
+		"name": "Subin Park",
+		"email": "sparksub125@gmail.com",
+		"url": "https://tharindu.dev",
+		"_comment": "수정필요"
 	},
 	"license": "MIT",
 	"private": true,

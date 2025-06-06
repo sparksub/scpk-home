@@ -45,6 +45,14 @@
 	text-align: right;
 }
 
+
+.footer-credits-img {
+	justify-content: flex-end;
+	color: var(--tertiary-color);
+	width: 35%;
+	text-align: right;
+}
+
 @media (max-width: 600px) {
 	.footer {
 		flex-direction: column;

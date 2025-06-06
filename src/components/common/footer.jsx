@@ -29,7 +29,13 @@ const Footer = () => {
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						© 2023 Tharindu.dev. All Rights Reserved.
+						{/* ©2025 신촌평광교회. All Rights Reserved. */}
+
+						<img
+						src="churchtitle.png"
+						alt="church logo"
+						className="footer-credits-img"
+					/>
 					</div>
 				</div>
 			</div>
